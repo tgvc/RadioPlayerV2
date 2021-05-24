@@ -1,0 +1,11 @@
+---
+application:
+  name: "radioplayer"
+  project: "fm radio"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-radioplayer"
+  routes:
+  - application_name: "radioplayer"
+    paths:
+    - "/*"
